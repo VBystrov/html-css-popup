@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.link {
+  margin: 0 15px;
+}
+
+.profile {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('img/bunny.jpg');
+  background-size: contain;
+  border-radius: 100%;
+}
+
+.popup-button {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url('icons/favicon.png');
+  background-size: contain;
+
+  /* white-space: nowrap; */
+}
+
+.popup-window {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+
+  width: 360px;
+  /* border: 2px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#popup-checkbox {
+  position: fixed;
+  top: -300px;
+}
+
+#popup-checkbox:checked + .popup-window {
+  display: flex;
+}
+
+.popup-item {
+  display: inline-block;
+  width: 33%;
+  height: 96px;
+  /* margin: 0 auto; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.asana {
+  background-image: url('icons/Tilda_Icons_8yo_asana.svg');
+}
