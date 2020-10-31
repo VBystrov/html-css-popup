@@ -132,6 +132,10 @@ html {
   background-image: url('icons/Tilda_Icons_8yo_heart.svg');
 }
 
+.melomane {
+  background-image: url('icons/Tilda_Icons_11mu_melomane.svg');
+}
+
 .horn {
   background-image: url('icons/Tilda_Icons_11mu_horn.svg');
 }
@@ -172,6 +176,6 @@ html {
   background-image: url('icons/Tilda_Icons_8yo_tree.svg');
 }
 
-.melomane {
+.location {
   background-image: url('icons/Tilda_Icons_11mu_location.svg');
 }
